@@ -14,7 +14,7 @@
 // ==/UserScript==
 
 if (document.getElementsByClassName("form-control fireliker-style-text-mono text-warning").length > 0) {
-    $('input[placeholder="Username"]').val('YOUR_USERNAME'); //Change YOUR_USERNAME with your username
+    $('input[placeholder="Username"]').val('tabah_rs'); //Change YOUR_USERNAME with your username
     setTimeout(function () {
         lp();
     }, 2000);
@@ -62,7 +62,7 @@ function changeValue() {
     }
 }
 
-setTimeout(sendViews, 2000);
+setTimeout(sendViews, 1000000);
 
 function sendViews() {
     if (document.getElementsByClassName("btn btn-warning").length > 0) {
